@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+    <head>
+    <meta charset = "UFT-8">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javaScript" src="script.js"></script>
+    <title> Sprint 1</title>
+    </head>
+
+    <body>
+      <div class="contenedor">
+        <div class="logo">
+            <img class="logoImg" src="Logo.png">
+            <h1 textclass="tittle">Encriptador de texto</h1>
+        </div>
+        <div class="left">
+            <input  class="text-input" id="inpuntTexto" type="text" placeholder="Ingrese el texto aqui" >
+        </div>
+        <div class="right">
+            <img src="ovni.png" id="imgDer">
+            <h1 id="texto">Ningún mensaje fue encontrado</h1>
+            <textarea id="texto2" name="name" rows="8" cols="80">Ingrese el texto que desees encriptar o desencriptar.</textarea>
+            <button id="copiar" type="button" name="button" onclick="copy()">Copiar</button>
+        </div>
+        <div class="left-button">
+            <p style="text-align:center">*Solo minusculas y sin acento</p>
+            <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+
+      </div>
+
+    </body>
+
+
+
+</html>

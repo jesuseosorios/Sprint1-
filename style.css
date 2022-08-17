@@ -1,0 +1,138 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #2b075b;
+    background: url(via.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+
+}
+.contenedor{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    color: #ffffff;
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    vertical-align: text-top;
+ 
+}
+.logo{
+    width: 100%;
+    float: left;
+
+ 
+}
+.left{
+
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+
+}
+.right{
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+    background: rgba(0, 0, 0, 0.378);
+
+  
+}
+.left-button{
+    float: left;
+    width:70% ;
+    height: auto;
+    border-radius: 24px;
+ 
+}
+.logoImg{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+.tittle{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    float: inherit;
+    margin-left: 20%;
+}
+.text-input{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #ffffff;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background: #050303b0;;
+  
+}
+#imgDer{
+    margin-top: 20%;
+    margin-left: 5%;
+    width: 90%;
+    height: auto;
+
+}
+#texto{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    margin-left: 7%;
+    margin-right: 5%;
+}
+#texto2{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    background-color: transparent;
+    border: 1px solid #000000;
+    float: left;
+    margin-left: 10%;
+    color: #ffffff;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    
+
+}
+#btn-encriptar{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color: #ffffff;
+    font-size: 18px; 
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #000000;
+}
+
+#btn-desencriptar{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color: #ffffff;
+    font-size: 18px; 
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #000000;
+}
+#copiar{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color: #ffffff;
+    font-size: 18px; 
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #000000;
+    border-radius: 24px;
+    display: none;
+}
